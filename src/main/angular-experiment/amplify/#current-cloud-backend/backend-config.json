@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"artibusamplify6ea63521": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

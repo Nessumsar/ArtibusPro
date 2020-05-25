@@ -1,0 +1,8 @@
+.control-group{
+  display: inline-block;
+  margin: 5px;
+}
+
+#custom-btn-div{
+  display: inline-block;
+}

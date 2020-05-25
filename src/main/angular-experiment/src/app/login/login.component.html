@@ -1,0 +1,16 @@
+<amplify-authenticator usernameAlias="email">
+  <amplify-sign-in
+    headerText=""
+    submitButtonText="Logga in"
+    slot="sign-in"
+    usernameAlias="email"
+    [formFields]="formFields"
+  [hidden]="['SignUp']"> <!-- Funkar ej -->
+  </amplify-sign-in>
+  <div>
+    <amplify-sign-out></amplify-sign-out>
+  </div>
+</amplify-authenticator>
+<!-- Visa logga in om användaren ej är inloggad och logga ut om användaren är inloggad
+<amplify-sign-out button-text="Custom Text"></amplify-sign-out>
+-->

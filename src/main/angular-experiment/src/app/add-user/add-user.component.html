@@ -1,0 +1,70 @@
+<form class="form-horizontal" action='' method="POST">
+  <fieldset>
+    <div id="legend">
+      <legend class="">Registrera en ny användare</legend>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="username">Användarnamn</label>
+      <div class="controls">
+        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+        <div class="invalid-feedback">
+          Användarnamnet kan innehålla alla bokstäver och siffror utan mellanslag
+        </div>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- E-mail -->
+      <label class="control-label" for="email">E-post</label>
+      <div class="controls">
+        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+      </div>
+      <div class="invalid-feedback">
+        Fyll i en giltig E-postadress
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password-->
+      <label class="control-label" for="password">Lösenord</label>
+      <div class="controls">
+        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+        <div class="invalid-feedback">
+          Lösenordet skall innehålla minst 6 tecken
+        </div>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password -- Verifiering? -->
+      <label class="control-label"  for="password_confirm">Bekräfta lösenord</label>
+      <div class="controls">
+        <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+      </div>
+      <div class="invalid-feedback">
+        Lösenorden måste vara likadana
+      </div>
+    </div>
+    <!-- Dropdown - ska innehålla alla arbetsgrupper-->
+    <div class="btn-group">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Välj grupp
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Arbetsgrupp</a>
+        <a class="dropdown-item" href="#">Arbetsgrupp</a>
+        <a class="dropdown-item" href="#">Arbetsgrupp</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+
+    <div class="control-group" id="custom-btn-div">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn btn-success">Registrera</button>
+      </div>
+    </div>
+  </fieldset>
+</form>

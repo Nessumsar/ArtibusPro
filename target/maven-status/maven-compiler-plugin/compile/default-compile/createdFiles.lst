@@ -1,0 +1,5 @@
+org/tieto/cognito/CognitoConnect.class
+org/tieto/web/SuperUserResource.class
+org/tieto/web/TenantResource.class
+org/tieto/web/WorkGroupResource.class
+org/tieto/web/UserResource.class
