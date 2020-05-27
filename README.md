@@ -1,4 +1,7 @@
 # artibus-pro project
+-------------------------------------------------
+Project made at student internship at TietoEVRY
+-------------------------------------------------
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
