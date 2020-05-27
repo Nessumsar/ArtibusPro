@@ -1,7 +1,7 @@
 # artibus-pro project
 
 
--------------------------------------------------
+
 Project made at student internship at TietoEVRY
 -------------------------------------------------
 
